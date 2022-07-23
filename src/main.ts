@@ -8,10 +8,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Cats example')
-    .setDescription('The cats API description')
+    .setTitle('Nest Mongo Simple API')
+    .setDescription(
+      'This is a simple API for Nest, using Mongo, IOC, Swagger, and Tests',
+    )
     .setVersion('1.0')
-    .addTag('cats')
+    .addTag('Cats are cool')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
