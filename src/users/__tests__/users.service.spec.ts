@@ -3,8 +3,8 @@ import { Model } from 'mongoose';
 import { Test, TestingModule } from '@nestjs/testing';
 import { UsersService } from '../users.service';
 import { getModelToken } from '@nestjs/mongoose';
-import { fakeUsersRepository } from './mocks/fakeusers.repostory';
-import { fakeUser, fakeId } from './mocks/fakedata';
+import { fakeUsersRepository } from './mocks/fake-users.repostory';
+import { fakeUser, fakeId } from './mocks/fake-data';
 
 describe('UsersService', () => {
   let usersService: UsersService;

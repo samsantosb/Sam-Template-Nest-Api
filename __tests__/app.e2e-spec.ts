@@ -1,4 +1,4 @@
-import { fakeUser, fakeId } from '../src/users/__tests__/mocks/fakedata';
+import { fakeUser, fakeId } from '../src/users/__tests__/mocks/fake-data';
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';

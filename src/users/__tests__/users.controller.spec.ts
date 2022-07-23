@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { UsersController } from '../users.controller';
-import { fakeUsersService } from './mocks/fakeusers.service';
-import { fakeUser, fakeId } from './mocks/fakedata';
+import { fakeUsersService } from './mocks/fake-users.service';
+import { fakeUser, fakeId } from './mocks/fake-data';
 import { IUsersService } from '../interfaces/users.service.interface';
 
 describe('UsersController', () => {
