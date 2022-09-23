@@ -1,4 +1,4 @@
-## Nestjs - Mongoose - Crud with 100% test cover
+## Nestjs - Mongoose - Crud
 
 ## What this repository do ?
 
